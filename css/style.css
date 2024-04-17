@@ -1,0 +1,134 @@
+body {
+    background-color: #fff6f6;
+    font-family: 'Shadows Into Light', cursive; 
+}
+
+h1 {
+    text-align: center;
+    color: #ff80ab; 
+    margin-top: 50px;
+}
+
+h2{
+    text-align: center;
+}
+
+.button-container{
+    display: flex;
+    margin: 4px;
+    padding: 4px;
+}
+
+button{
+    margin: 10px;
+}
+
+.container {
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    margin-top: 30px;
+}
+
+.container ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+.container li {
+    display: inline-block; 
+    margin: 10px; 
+}
+
+.container a {
+    font-family: 'Shadows Into Light', cursive; 
+    color: #ff6666; 
+    text-decoration: none;
+}
+
+.container a:hover {
+    color: #ff4d4d;
+}
+
+@media only screen and (max-width: 768px) {
+    .container ul {
+        list-style-type: disc; 
+    }
+
+    .container li {
+        display: block; 
+    }
+}
+
+img {
+    display: block;
+    margin: 20px auto; 
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    width: 80%; 
+    margin: 20px auto; 
+    padding: 20px; 
+    background-color: #ffcccc; 
+    border-radius: 10px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+}
+
+label {
+    display: block;
+    margin-bottom: 7px; 
+    color: #ff1a75; 
+    font-weight: bold; 
+}
+
+input {
+    width: calc(100% - 22px); 
+    padding: 10px; 
+    margin-bottom: 20px; 
+    border: 1px solid #ff99cc; 
+    border-radius: 5px; 
+}
+
+button {
+    width: 100%; 
+    padding: 10px; 
+    background-color: #ff99cc; 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: #ff80ab; 
+}
+
+@media only screen and (max-width: 768px) {
+    form {
+        width: 90%; 
+    }
+}
+
+#contenuBibliotheque {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.livre {
+    width: 30%;
+    background-color: #ffe6ff; 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.livre p {
+    margin: 0;
+    color: #ff1a75; 
+}

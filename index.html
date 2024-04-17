@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion - Trésors Littéraires</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Trésors Littéraires</h1>
+    <div id="connexionForm">
+        <form action="html/mabibliotheque" method="post">
+            <h2>Connexion</h2>
+            <div>
+                <label for="username">Nom d'utilisateur :</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div>
+                <label for="password">Mot de passe :</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="button-container">
+                <button type="submit">Se connecter</button>
+                <button type="button" onclick="location.href='inscription.html';">Créer un compte</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
